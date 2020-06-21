@@ -1,0 +1,11 @@
+﻿
+@model IEnumerable<OdeToFood.Data.Models.Restaurant>
+
+<ul>
+    @foreach (var restaurant in @Model)
+    {
+        <li>@restaurant.Name</li>
+
+    }
+
+</ul>

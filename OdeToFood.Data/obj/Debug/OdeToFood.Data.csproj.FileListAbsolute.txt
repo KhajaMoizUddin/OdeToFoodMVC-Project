@@ -1,0 +1,6 @@
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
