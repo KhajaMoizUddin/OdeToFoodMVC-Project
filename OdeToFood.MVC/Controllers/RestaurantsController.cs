@@ -1,4 +1,5 @@
-﻿using OdeToFood.Data.Services;
+﻿using OdeToFood.Data.Models;
+using OdeToFood.Data.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace OdeToFood.MVC.Controllers
             return View(model);
         }
 
+        [HttpGet]
         public ActionResult Details(int id)
         {
             var model = this.restaurantData.Get(id);
@@ -30,6 +32,49 @@ namespace OdeToFood.MVC.Controllers
                 return View("NotFound");
             }
             return View(model);
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Restaurant restaurant)
+        {
+            //if (string.IsNullOrEmpty(restaurant.Name))  // Instead we can use Required annotation at Model level.
+            //{
+            //    ModelState.AddModelError(nameof(restaurant.Name), "This is Required field!");
+            //}
+
+            if (ModelState.IsValid)
+            {
+                this.restaurantData.Add(restaurant);
+                return RedirectToAction("Details", new { id = restaurant.Id });
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+           var model = this.restaurantData.Get(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Restaurant restaurant)
+        {
+            if (ModelState.IsValid)
+            {
+                this.restaurantData.Update(restaurant);
+                return RedirectToAction("Details", new { id = restaurant.Id });
+            }
+            
+            return View(restaurant);
         }
     }
 }

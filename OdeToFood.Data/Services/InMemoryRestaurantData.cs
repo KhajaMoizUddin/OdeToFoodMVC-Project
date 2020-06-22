@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace OdeToFood.Data.Services
 {
@@ -21,7 +22,7 @@ namespace OdeToFood.Data.Services
 
         }
 
-        Restaurant IRestaurantData.Get(int id)
+        public Restaurant Get(int id)
         {
             return restaurants.FirstOrDefault(x => x.Id == id);
         }
@@ -29,6 +30,22 @@ namespace OdeToFood.Data.Services
         IEnumerable<Restaurant> IRestaurantData.GetAll()
         {
             return restaurants.OrderBy(x => x.Name);
+        }
+
+        public void Add(Restaurant restaurant)
+        {
+            restaurants.Add(restaurant);
+           restaurant.Id =  restaurants.Max(x => x.Id) + 1;
+        }
+
+        public void Update(Restaurant restaurant)
+        {
+            var existing = Get(restaurant.Id);
+            if(existing!=null)
+            {
+                existing.Name = restaurant.Name;
+                existing.Cuisine = restaurant.Cuisine;
+            }
         }
     }
 }
