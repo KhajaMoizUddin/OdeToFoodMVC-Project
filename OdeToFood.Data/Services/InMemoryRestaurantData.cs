@@ -47,5 +47,25 @@ namespace OdeToFood.Data.Services
                 existing.Cuisine = restaurant.Cuisine;
             }
         }
+
+        Restaurant IRestaurantData.Get(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRestaurantData.Add(Restaurant restaurant)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRestaurantData.Update(Restaurant restaurant)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRestaurantData.Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

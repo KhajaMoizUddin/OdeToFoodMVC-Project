@@ -3,4 +3,9 @@ F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll.config
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\EntityFramework.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\EntityFramework.xml
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete

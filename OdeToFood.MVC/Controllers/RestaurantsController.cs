@@ -76,5 +76,17 @@ namespace OdeToFood.MVC.Controllers
             
             return View(restaurant);
         }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                this.restaurantData.Delete(id);
+                return RedirectToAction("Index");
+            }
+            
+            return View();
+        }
     }
 }
