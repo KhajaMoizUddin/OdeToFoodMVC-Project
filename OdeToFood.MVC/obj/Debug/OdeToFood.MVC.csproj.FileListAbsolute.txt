@@ -54,6 +54,8 @@ F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Antlr3.Runtime.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.Integration.Mvc.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.Integration.WebApi.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.dll
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.SqlServer.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Microsoft.Bcl.AsyncInterfaces.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Microsoft.Web.Infrastructure.dll
@@ -73,11 +75,14 @@ F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\System.Web.WebPages.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\System.Web.WebPages.Razor.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\WebGrease.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\OdeToFood.Data.pdb
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\OdeToFood.Data.dll.config
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.pdb
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.xml
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.Integration.Mvc.xml
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.Integration.WebApi.pdb
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Autofac.Integration.WebApi.xml
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.xml
+F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.SqlServer.xml
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\Microsoft.Bcl.AsyncInterfaces.xml
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\System.Net.Http.Formatting.xml
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\System.Runtime.CompilerServices.Unsafe.xml
@@ -99,8 +104,3 @@ F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\obj\Debug\OdeToFood.MVC.csproj.Cor
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\obj\Debug\OdeToFood.MVC.csproj.CopyComplete
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\obj\Debug\OdeToFood.MVC.dll
 F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\obj\Debug\OdeToFood.MVC.pdb
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.dll
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.SqlServer.dll
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\OdeToFood.Data.dll.config
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.xml
-F:\MVC_Applicatons\OdeToFoodMVC\OdeToFood.MVC\bin\EntityFramework.SqlServer.xml
